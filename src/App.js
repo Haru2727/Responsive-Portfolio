@@ -1,6 +1,8 @@
 import './App.scss';
-import  NavBar  from './components/NavBar';
-import HomePage from './pages/HomePage'
+import NavBar from './components/NavBar';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import { Switch, Route } from 'react-router-dom';
 
 
 function App() {
@@ -11,7 +13,14 @@ function App() {
       </div>
       <div className="main-content">
         <div className="content">
-          <HomePage />
+          <Switch>
+            <Route path="/" exact>
+              <HomePage />
+            </Route>
+            <Route path="/about" exact>
+              <AboutPage />
+            </Route>
+          </Switch>
         </div>
       </div>
     </div>
