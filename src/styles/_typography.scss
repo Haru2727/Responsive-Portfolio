@@ -1,0 +1,22 @@
+.HomePage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // centering this on the x and y axis in order to have it look presentable 
+    width: 80%;
+}
+
+
+.hero-text {
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    span {
+        color: #037FFF;
+    }
+}
+
+.h-sub-text{
+    text-align: center;
+}
