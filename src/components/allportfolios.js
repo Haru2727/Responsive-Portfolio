@@ -16,7 +16,9 @@ const portfolioData = [
         link2: "https://homegrown-app-grizzlies.herokuapp.com/",
         icon1: 'GH',
         icon2: 'App',
-        title: 'HomeGrown App'
+        image: port1,
+        title: 'HomeGrown App',
+        description: 'We created an app using the MVC model.  This app allows users to track and get info on their plants'
     },
     {
         id: 2,
@@ -25,7 +27,9 @@ const portfolioData = [
         link2: "https://budget-tracker27.herokuapp.com/",
         icon1: 'GH',
         icon2: 'App',
-        title: 'Online/Offline Bidget Tracker'
+        image: port2,
+        title: 'Online/Offline Bidget Tracker',
+        description: 'This app used the PWA model and its use was to be able to work both online and offline'
     },
     {
         id: 3,
@@ -34,7 +38,9 @@ const portfolioData = [
         link2: "",
         icon1: 'GH',
         icon2: '',
-        title: 'E-commerce Backend'
+        image: port3,
+        title: 'E-commerce Backend',
+        description: 'E-commerce is huge these days and this is a backend framework for a E-commerce store'
     },
     {
         id: 4,
@@ -43,7 +49,9 @@ const portfolioData = [
         link2: "https://haru2727.github.io/Weather_Dashboard/",
         icon1: 'GH',
         icon2: 'App',
-        title: 'Weather Dashboard'
+        image: port4,
+        title: 'Weather Dashboard',
+        description: 'Search any city to find its upcoming forecast'
     },
     {
         id: 5,
@@ -52,7 +60,9 @@ const portfolioData = [
         link2: "https://working-on-my-fitness2.herokuapp.com/?id=607dca670057a80015d93e82",
         icon1: 'GH',
         icon2: 'App',
-        title: 'Fitness Tracker'
+        image: port5,
+        title: 'Fitness Tracker',
+        description: 'Fitness trackers allow users to see their progress towards living a healthy life'
     },
     {
         id: 6,
@@ -61,7 +71,9 @@ const portfolioData = [
         link2: "https://spicyjackrabbits.github.io/theFoodApp/",
         icon1: 'GH',
         icon2: 'App',
-        title: 'Hungry v Hangry App'
+        image: port6,
+        title: 'Hungry v Hangry App',
+        description: 'Depending on your hunger level you are given either the closest option to you or the five closest options based off your craving'
     },
 ]
 
