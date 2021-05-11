@@ -1,10 +1,19 @@
 import React from 'react';
 
-function SkillsSection(){
+function SkillsSection({skill, progress, width}) {
     return (
-        <div className="Skills-Section">
-
-            
+        <div className="skills-section">
+            <div className="skills-container">
+                <h5 className="skill-title">{skill}</h5>
+                <div className="skill-bar">
+                    <p className="skill-text">{progress}</p>
+                    <div className="skill-progress">
+                        <div className="progress-bar">
+                            <div className="tracking-progress" style={{width:width}}></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

@@ -1,0 +1,38 @@
+.skills-section{
+    margin: 4.5rem;
+}
+
+.skills-container{
+    .skill-title{
+       font-size: 1.4rem;
+       font-weight: 400;
+    }
+
+    .skill-bar{
+        display: flex;
+        align-items: center;
+        .skill-text{
+            
+        }
+        .skill-progress{
+            .progress-bar{
+                width: 100%;
+                height: .5rem;
+                background-color: red;
+                margin-left: 1rem;
+                background-color: #0381ff3b;
+                position: relative;
+                .tracking-progress{
+                    position: absolute;
+                    background-color: #037FFF;
+                    height: 100%;
+                    left: 0; 
+                    bottom: 0;
+                }
+            }
+            }
+        }
+    
+
+
+}
