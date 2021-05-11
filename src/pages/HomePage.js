@@ -1,9 +1,5 @@
 import React from 'react';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-// import { AiOutlineMail } from '@fontawesome/react-fontawesome'
+import { faFacebook, faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
@@ -19,7 +15,7 @@ function HomePage() {
                     lorem ipsum dolor sit amet, consectetur adipis
             </p>
                 <div className="icons">
-                    <Link className="icon-holder">
+                    <Link  className="icon-holder">
                     <FontAwesomeIcon icon={faFacebook} className='icon fb'/>
                     </Link>
                     <Link className="icon-holder">
