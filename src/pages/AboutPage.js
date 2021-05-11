@@ -1,9 +1,13 @@
 import React from 'react';
+import Title from '../components/Title'
+import ImageSection from '../components/ImageSection';
 
 function AboutPage(){
     return(
         <div className="AboutPage">
-            <h1>About Page</h1>
+           <Title title={'About Me'} span={'About Me'} />
+           <ImageSection />
+           <Title title={'My Skills'} span={'My Skills'} />
         </div>
     )
 }

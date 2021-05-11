@@ -2,6 +2,8 @@ import './App.scss';
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import PortfolioPage from './pages/PortfolioPage';
+import ContactPage from './pages/ContactPage';
 import { Switch, Route } from 'react-router-dom';
 
 
@@ -19,6 +21,12 @@ function App() {
             </Route>
             <Route path="/about" exact>
               <AboutPage />
+            </Route>
+            <Route path="/portfolio" exact>
+              <PortfolioPage />
+            </Route>
+            <Route path="/contact" exact>
+              <ContactPage />
             </Route>
           </Switch>
         </div>
