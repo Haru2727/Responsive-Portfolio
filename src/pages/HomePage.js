@@ -2,6 +2,7 @@ import React from 'react';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 // import { AiOutlineMail } from '@fontawesome/react-fontawesome'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
@@ -26,6 +27,9 @@ function HomePage() {
                     </Link>
                     <Link className="icon-holder">
                     <FontAwesomeIcon icon={faTwitter} className='icon tw'/>
+                    </Link>
+                    <Link className="icon-holder">
+                    <FontAwesomeIcon icon={faLinkedin} className='icon lk'/>
                     </Link>
                  
                

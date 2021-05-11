@@ -17,7 +17,7 @@ function ImageSection() {
                         <p>Full Name</p>
                         <p>Age</p>
                         <p>Location</p>
-                        <p>Spoken Languages</p>
+                        <p>Non-Coding Languages</p>
                             <p>Intrests</p>
                     </div>
                         <div className="right-section">

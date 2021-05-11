@@ -1,5 +1,5 @@
 .skills-section{
-    margin: 4.5rem;
+    // margin: 4.5rem;
 }
 
 .skills-container{
@@ -15,10 +15,10 @@
             
         }
         .skill-progress{
+            width: 100%;
             .progress-bar{
                 width: 100%;
                 height: .5rem;
-                background-color: red;
                 margin-left: 1rem;
                 background-color: #0381ff3b;
                 position: relative;
