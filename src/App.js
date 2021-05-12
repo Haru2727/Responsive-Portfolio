@@ -13,6 +13,11 @@ function App() {
       <div className="sidebar">
         <NavBar />
       </div>
+      <div className="nav-btn">
+        <div className="line-1"></div>
+        <div className="line-2"></div>
+        <div className="line-3"></div>
+      </div>
       <div className="main-content">
         <div className="content">
           <Switch>

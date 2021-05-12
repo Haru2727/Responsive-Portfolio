@@ -10,7 +10,7 @@ function ImageSection() {
 
             <div className="about-info">
                 <h4> I am <span> Arash Saeedi </span></h4>
-                <p className="about-text">lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consetur</p>
+                <p className="about-text">a future full stack developer who is putting in the work to master the craft.</p>
 
                 <div className="about-details">
                     <div className="left-section">

@@ -12,10 +12,10 @@ function HomePage() {
                 <span> Arash Saeedi </span>
                 </h1>
                 <p className="h-sub-text">
-                    lorem ipsum dolor sit amet, consectetur adipis
+                 Full Stack Developer (in training)
             </p>
                 <div className="icons">
-                    <Link  className="icon-holder">
+                    <Link className="icon-holder">
                     <FontAwesomeIcon icon={faFacebook} className='icon fb'/>
                     </Link>
                     <Link className="icon-holder">
