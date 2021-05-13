@@ -2,6 +2,8 @@ import React from 'react';
 import About from '../images/profile.jpg';
 
 function ImageSection() {
+
+
     return (
         <div className="ImageSection">
             <div className="img">

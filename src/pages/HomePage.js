@@ -15,18 +15,18 @@ function HomePage() {
                  Full Stack Developer (in training)
             </p>
                 <div className="icons">
-                    <Link className="icon-holder">
+                    <a href="https://www.facebook.com/profile.php?id=22620493" target="_blank" rel="noopener noreferrer" className="icon-holder">
                     <FontAwesomeIcon icon={faFacebook} className='icon fb'/>
-                    </Link>
-                    <Link className="icon-holder">
+                    </a>
+                    <a href="https://github.com/Haru2727" target="_blank" rel="noopener noreferrer" className="icon-holder">
                     <FontAwesomeIcon icon={faGithub} className='icon gh'/>
-                    </Link>
-                    <Link className="icon-holder">
+                    </a>
+                    <a href="https://twitter.com/haru2780107602" target="_blank" rel="noopener noreferrer" className="icon-holder">
                     <FontAwesomeIcon icon={faTwitter} className='icon tw'/>
-                    </Link>
-                    <Link className="icon-holder">
+                    </a>
+                    <a href="https://www.linkedin.com/in/arash-saeedi-b18307127/" target="_blank" rel="noopener noreferrer" className="icon-holder">
                     <FontAwesomeIcon icon={faLinkedin} className='icon lk'/>
-                    </Link>
+                    </a>
                  
                
                 </div>
