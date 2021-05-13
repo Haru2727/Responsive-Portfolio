@@ -32,12 +32,10 @@ function NavBar() {
                     </li>
                 </ul>
                 <footer className="footer">
-                <p>
-                    @2021 Arash Saeedi
-                    (770)294-5935
-                    saeediarash84@gmail.com
-                </p>
-            </footer>
+                    <p>
+                        @2021 Arash Saeedi
+                    </p>
+                </footer>
             </nav>
         </div>
     )
